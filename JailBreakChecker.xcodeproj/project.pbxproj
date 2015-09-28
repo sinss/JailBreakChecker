@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3CF4DAA1BB91FB100851D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF4DA91BB91FB100851D10 /* main.m */; };
+		B3CF4DAD1BB91FB100851D10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF4DAC1BB91FB100851D10 /* AppDelegate.m */; };
+		B3CF4DB01BB91FB100851D10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF4DAF1BB91FB100851D10 /* ViewController.m */; };
+		B3CF4DB31BB91FB100851D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CF4DB11BB91FB100851D10 /* Main.storyboard */; };
+		B3CF4DB51BB91FB100851D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3CF4DB41BB91FB100851D10 /* Assets.xcassets */; };
+		B3CF4DB81BB91FB100851D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CF4DB61BB91FB100851D10 /* LaunchScreen.storyboard */; };
+		B3CF4DC31BB91FB100851D10 /* JailBreakCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF4DC21BB91FB100851D10 /* JailBreakCheckerTests.m */; };
+		B3CF4DCE1BB91FB100851D10 /* JailBreakCheckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF4DCD1BB91FB100851D10 /* JailBreakCheckerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3CF4DBF1BB91FB100851D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3CF4D9D1BB91FB100851D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3CF4DA41BB91FB100851D10;
+			remoteInfo = JailBreakChecker;
+		};
+		B3CF4DCA1BB91FB100851D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3CF4D9D1BB91FB100851D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3CF4DA41BB91FB100851D10;
+			remoteInfo = JailBreakChecker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3CF4DA51BB91FB100851D10 /* JailBreakChecker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JailBreakChecker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CF4DA91BB91FB100851D10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3CF4DAB1BB91FB100851D10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3CF4DAC1BB91FB100851D10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3CF4DAE1BB91FB100851D10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3CF4DAF1BB91FB100851D10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3CF4DB21BB91FB100851D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3CF4DB41BB91FB100851D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3CF4DB71BB91FB100851D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3CF4DB91BB91FB100851D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CF4DBE1BB91FB100851D10 /* JailBreakCheckerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailBreakCheckerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CF4DC21BB91FB100851D10 /* JailBreakCheckerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailBreakCheckerTests.m; sourceTree = "<group>"; };
+		B3CF4DC41BB91FB100851D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CF4DC91BB91FB100851D10 /* JailBreakCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailBreakCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3CF4DCD1BB91FB100851D10 /* JailBreakCheckerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailBreakCheckerUITests.m; sourceTree = "<group>"; };
+		B3CF4DCF1BB91FB100851D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3CF4DA21BB91FB100851D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CF4DBB1BB91FB100851D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CF4DC61BB91FB100851D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3CF4D9C1BB91FB100851D10 = {
+			isa = PBXGroup;
+			children = (
+				B3CF4DA71BB91FB100851D10 /* JailBreakChecker */,
+				B3CF4DC11BB91FB100851D10 /* JailBreakCheckerTests */,
+				B3CF4DCC1BB91FB100851D10 /* JailBreakCheckerUITests */,
+				B3CF4DA61BB91FB100851D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3CF4DA61BB91FB100851D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF4DA51BB91FB100851D10 /* JailBreakChecker.app */,
+				B3CF4DBE1BB91FB100851D10 /* JailBreakCheckerTests.xctest */,
+				B3CF4DC91BB91FB100851D10 /* JailBreakCheckerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3CF4DA71BB91FB100851D10 /* JailBreakChecker */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF4DAB1BB91FB100851D10 /* AppDelegate.h */,
+				B3CF4DAC1BB91FB100851D10 /* AppDelegate.m */,
+				B3CF4DAE1BB91FB100851D10 /* ViewController.h */,
+				B3CF4DAF1BB91FB100851D10 /* ViewController.m */,
+				B3CF4DB11BB91FB100851D10 /* Main.storyboard */,
+				B3CF4DB41BB91FB100851D10 /* Assets.xcassets */,
+				B3CF4DB61BB91FB100851D10 /* LaunchScreen.storyboard */,
+				B3CF4DB91BB91FB100851D10 /* Info.plist */,
+				B3CF4DA81BB91FB100851D10 /* Supporting Files */,
+			);
+			path = JailBreakChecker;
+			sourceTree = "<group>";
+		};
+		B3CF4DA81BB91FB100851D10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF4DA91BB91FB100851D10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3CF4DC11BB91FB100851D10 /* JailBreakCheckerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF4DC21BB91FB100851D10 /* JailBreakCheckerTests.m */,
+				B3CF4DC41BB91FB100851D10 /* Info.plist */,
+			);
+			path = JailBreakCheckerTests;
+			sourceTree = "<group>";
+		};
+		B3CF4DCC1BB91FB100851D10 /* JailBreakCheckerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3CF4DCD1BB91FB100851D10 /* JailBreakCheckerUITests.m */,
+				B3CF4DCF1BB91FB100851D10 /* Info.plist */,
+			);
+			path = JailBreakCheckerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3CF4DA41BB91FB100851D10 /* JailBreakChecker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CF4DD21BB91FB100851D10 /* Build configuration list for PBXNativeTarget "JailBreakChecker" */;
+			buildPhases = (
+				B3CF4DA11BB91FB100851D10 /* Sources */,
+				B3CF4DA21BB91FB100851D10 /* Frameworks */,
+				B3CF4DA31BB91FB100851D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JailBreakChecker;
+			productName = JailBreakChecker;
+			productReference = B3CF4DA51BB91FB100851D10 /* JailBreakChecker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3CF4DBD1BB91FB100851D10 /* JailBreakCheckerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CF4DD51BB91FB100851D10 /* Build configuration list for PBXNativeTarget "JailBreakCheckerTests" */;
+			buildPhases = (
+				B3CF4DBA1BB91FB100851D10 /* Sources */,
+				B3CF4DBB1BB91FB100851D10 /* Frameworks */,
+				B3CF4DBC1BB91FB100851D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3CF4DC01BB91FB100851D10 /* PBXTargetDependency */,
+			);
+			name = JailBreakCheckerTests;
+			productName = JailBreakCheckerTests;
+			productReference = B3CF4DBE1BB91FB100851D10 /* JailBreakCheckerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3CF4DC81BB91FB100851D10 /* JailBreakCheckerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3CF4DD81BB91FB100851D10 /* Build configuration list for PBXNativeTarget "JailBreakCheckerUITests" */;
+			buildPhases = (
+				B3CF4DC51BB91FB100851D10 /* Sources */,
+				B3CF4DC61BB91FB100851D10 /* Frameworks */,
+				B3CF4DC71BB91FB100851D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3CF4DCB1BB91FB100851D10 /* PBXTargetDependency */,
+			);
+			name = JailBreakCheckerUITests;
+			productName = JailBreakCheckerUITests;
+			productReference = B3CF4DC91BB91FB100851D10 /* JailBreakCheckerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3CF4D9D1BB91FB100851D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Perfectidea Inc.";
+				TargetAttributes = {
+					B3CF4DA41BB91FB100851D10 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B3CF4DBD1BB91FB100851D10 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B3CF4DA41BB91FB100851D10;
+					};
+					B3CF4DC81BB91FB100851D10 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B3CF4DA41BB91FB100851D10;
+					};
+				};
+			};
+			buildConfigurationList = B3CF4DA01BB91FB100851D10 /* Build configuration list for PBXProject "JailBreakChecker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3CF4D9C1BB91FB100851D10;
+			productRefGroup = B3CF4DA61BB91FB100851D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3CF4DA41BB91FB100851D10 /* JailBreakChecker */,
+				B3CF4DBD1BB91FB100851D10 /* JailBreakCheckerTests */,
+				B3CF4DC81BB91FB100851D10 /* JailBreakCheckerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3CF4DA31BB91FB100851D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CF4DB81BB91FB100851D10 /* LaunchScreen.storyboard in Resources */,
+				B3CF4DB51BB91FB100851D10 /* Assets.xcassets in Resources */,
+				B3CF4DB31BB91FB100851D10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CF4DBC1BB91FB100851D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CF4DC71BB91FB100851D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3CF4DA11BB91FB100851D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CF4DB01BB91FB100851D10 /* ViewController.m in Sources */,
+				B3CF4DAD1BB91FB100851D10 /* AppDelegate.m in Sources */,
+				B3CF4DAA1BB91FB100851D10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CF4DBA1BB91FB100851D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CF4DC31BB91FB100851D10 /* JailBreakCheckerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3CF4DC51BB91FB100851D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CF4DCE1BB91FB100851D10 /* JailBreakCheckerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3CF4DC01BB91FB100851D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3CF4DA41BB91FB100851D10 /* JailBreakChecker */;
+			targetProxy = B3CF4DBF1BB91FB100851D10 /* PBXContainerItemProxy */;
+		};
+		B3CF4DCB1BB91FB100851D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3CF4DA41BB91FB100851D10 /* JailBreakChecker */;
+			targetProxy = B3CF4DCA1BB91FB100851D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3CF4DB11BB91FB100851D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3CF4DB21BB91FB100851D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3CF4DB61BB91FB100851D10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3CF4DB71BB91FB100851D10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3CF4DD01BB91FB100851D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3CF4DD11BB91FB100851D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3CF4DD31BB91FB100851D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JailBreakChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectidea.JailBreakChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B3CF4DD41BB91FB100851D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JailBreakChecker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectidea.JailBreakChecker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B3CF4DD61BB91FB100851D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JailBreakCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectidea.JailBreakCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JailBreakChecker.app/JailBreakChecker";
+			};
+			name = Debug;
+		};
+		B3CF4DD71BB91FB100851D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JailBreakCheckerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectidea.JailBreakCheckerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JailBreakChecker.app/JailBreakChecker";
+			};
+			name = Release;
+		};
+		B3CF4DD91BB91FB100851D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JailBreakCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectidea.JailBreakCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JailBreakChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B3CF4DDA1BB91FB100851D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JailBreakCheckerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perfectidea.JailBreakCheckerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JailBreakChecker;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3CF4DA01BB91FB100851D10 /* Build configuration list for PBXProject "JailBreakChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CF4DD01BB91FB100851D10 /* Debug */,
+				B3CF4DD11BB91FB100851D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3CF4DD21BB91FB100851D10 /* Build configuration list for PBXNativeTarget "JailBreakChecker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CF4DD31BB91FB100851D10 /* Debug */,
+				B3CF4DD41BB91FB100851D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3CF4DD51BB91FB100851D10 /* Build configuration list for PBXNativeTarget "JailBreakCheckerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CF4DD61BB91FB100851D10 /* Debug */,
+				B3CF4DD71BB91FB100851D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B3CF4DD81BB91FB100851D10 /* Build configuration list for PBXNativeTarget "JailBreakCheckerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3CF4DD91BB91FB100851D10 /* Debug */,
+				B3CF4DDA1BB91FB100851D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3CF4D9D1BB91FB100851D10 /* Project object */;
+}
