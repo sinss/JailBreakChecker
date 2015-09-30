@@ -15,6 +15,7 @@
 		B3CF4DB81BB91FB100851D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3CF4DB61BB91FB100851D10 /* LaunchScreen.storyboard */; };
 		B3CF4DC31BB91FB100851D10 /* JailBreakCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF4DC21BB91FB100851D10 /* JailBreakCheckerTests.m */; };
 		B3CF4DCE1BB91FB100851D10 /* JailBreakCheckerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF4DCD1BB91FB100851D10 /* JailBreakCheckerUITests.m */; };
+		B3CF4DDD1BB91FE900851D10 /* JailBreakChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = B3CF4DDC1BB91FE900851D10 /* JailBreakChecker.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B3CF4DC91BB91FB100851D10 /* JailBreakCheckerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JailBreakCheckerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CF4DCD1BB91FB100851D10 /* JailBreakCheckerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JailBreakCheckerUITests.m; sourceTree = "<group>"; };
 		B3CF4DCF1BB91FB100851D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3CF4DDB1BB91FE900851D10 /* JailBreakChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JailBreakChecker.h; sourceTree = "<group>"; };
+		B3CF4DDC1BB91FE900851D10 /* JailBreakChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JailBreakChecker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B3CF4DAC1BB91FB100851D10 /* AppDelegate.m */,
 				B3CF4DAE1BB91FB100851D10 /* ViewController.h */,
 				B3CF4DAF1BB91FB100851D10 /* ViewController.m */,
+				B3CF4DDB1BB91FE900851D10 /* JailBreakChecker.h */,
+				B3CF4DDC1BB91FE900851D10 /* JailBreakChecker.m */,
 				B3CF4DB11BB91FB100851D10 /* Main.storyboard */,
 				B3CF4DB41BB91FB100851D10 /* Assets.xcassets */,
 				B3CF4DB61BB91FB100851D10 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				B3CF4DB01BB91FB100851D10 /* ViewController.m in Sources */,
 				B3CF4DAD1BB91FB100851D10 /* AppDelegate.m in Sources */,
 				B3CF4DAA1BB91FB100851D10 /* main.m in Sources */,
+				B3CF4DDD1BB91FE900851D10 /* JailBreakChecker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
